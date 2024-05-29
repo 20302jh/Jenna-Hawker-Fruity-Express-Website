@@ -29,3 +29,12 @@ li a:hover {
 .active {
   background-color: #0E86D4;
 }
+.menu {
+  background-color: black;
+  color: #FBE7C6;
+}
+
+.careers {
+  background-color: #FBE7C6;
+  color: black;
+}
