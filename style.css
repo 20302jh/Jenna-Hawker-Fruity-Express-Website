@@ -21,7 +21,6 @@ li a {
   background-color: #FD7F20;
   padding: 14px 16px;
   text-decoration: none;
-  cursor: pointer;
 }
 li a:hover {
   background-color: #0E86D4;
@@ -37,7 +36,6 @@ li a:hover {
   border-radius: 4px;
   padding: 5px 25px;
   margin-bottom:10px;
-  cursor: pointer;
 }
 .menu {
   background-color: black;
@@ -45,7 +43,6 @@ li a:hover {
   border-radius: 20px;
   padding: 15px 25px;
   margin-bottom:10px;
-  cursor: pointer;
 }
 
 .careers:hover {
@@ -62,7 +59,6 @@ li a:hover {
   border-radius: 20px;
   padding: 15px 25px;
   margin-bottom:10px;
-  cursor: pointer;
 }
 
 input[type=text], textarea {
@@ -76,21 +72,31 @@ input[type=text], textarea {
   resize: vertical;
 }
 
-input[type=submit] {
+input[type=submit], input[type=subscribe] {
   background-color: black;
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
-  cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type=submit]:hover, input[type=subscribe]:hover {
   background-color:grey;
-}
+} 
 
 .container {
   border-radius:5px;
   background-color:#f2f2f2;
   padding:20px;
+}
+
+li a, input[type=submit], input[type=subscribe], .home, .menu, .careers {
+  cursor: pointer;
+}
+.container2 input[type=text] {
+  background-color: #FBE7C6;
+  color: black;
+  border:1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
