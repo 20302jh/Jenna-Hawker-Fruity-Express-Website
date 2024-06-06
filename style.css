@@ -128,3 +128,9 @@ li {
 p {
   font-size: 1.2rem;
 }
+
+.gridcontainer {
+  display:grid;
+  grid-template-columns: auto auto auto;
+  padding:10px;
+}
