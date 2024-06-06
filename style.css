@@ -100,3 +100,31 @@ li a, input[type=submit], input[type=subscribe], .home, .menu, .careers {
   border-radius: 4px;
   box-sizing: border-box;
 }
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+h5 {
+  font-size: 1.4rem;
+}
+
+li {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
