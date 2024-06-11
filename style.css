@@ -171,7 +171,7 @@ padding-right:50px
   }
 } 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
   body {
     background-color: #FBE7C6;
   }
@@ -329,4 +329,162 @@ padding-right:50px
   width: 315px;
   }
   
+}
+@media screen and (min-width: 600px) {
+  body {
+    background-color: #FBE7C6;
+  }
+
+  html {
+    height: 100%;
+    width: 100%;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: #FD7F20;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #0E86D4;
+  }
+
+  .active {
+    background-color: #0E86D4;
+  }
+
+  .home {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    padding: 5px 25px;
+    margin-bottom: 10px;
+  }
+
+  .menu {
+    background-color: black;
+    color: #FBE7C6;
+    border-radius: 20px;
+    padding: 15px 25px;
+    margin-bottom: 10px;
+  }
+
+  .careers:hover {
+    background-color: orange;
+  }
+
+  .menu:hover {
+    background-color: blue;
+  }
+
+  .careers {
+    background-color: #FBE7C6;
+    color: black;
+    border-radius: 20px;
+    padding: 15px 25px;
+    margin-bottom: 10px;
+  }
+
+  input[type=text],
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit],
+  input[type=subscribe] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  input[type=submit]:hover,
+  input[type=subscribe]:hover {
+    background-color: grey;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  li a,
+  input[type=submit],
+  input[type=subscribe],
+  .home,
+  .menu,
+  .careers {
+    cursor: pointer;
+  }
+
+  .container2 input[type=text] {
+    background-color: #FBE7C6;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  h4 {
+    font-size: 1.6rem;
+  }
+
+  h5 {
+    font-size: 1.4rem;
+  }
+
+  li {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .gridcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+  }
+
+  img {
+  height: 315px;
+  width: 315px;
+  }
 }
