@@ -189,6 +189,9 @@ padding-right:50px
    padding-left:50px;
   padding-right:50px;
   }
+  .footer, .container3 {
+    padding:20px;
+  }
 } 
 
 @media screen and (min-width: 600px) {
@@ -365,7 +368,7 @@ padding-right:50px
      padding-left:50px;
     padding-right:50px
   } 
-  .footer {
+  .footer, .container3 {
     padding:20px;
   }
 }
@@ -544,6 +547,9 @@ padding-right:50px
      padding-left:50px;
     padding-right:50px
   } 
+  .footer, .container3 {
+    padding:20px;
+  }
 }
 @media screen and (min-width: 768px) {
   body {
@@ -733,6 +739,9 @@ padding-right:50px
      padding-left:50px;
     padding-right:50px
   } 
+  .footer, .container3 {
+    padding:20px;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -923,6 +932,9 @@ padding-right:50px
      padding-left:50px;
     padding-right:50px
   } 
+  .footer, .container3 {
+    padding:20px;
+  }
 }
 @media screen and (min-width: 1200px) {
   body {
@@ -1118,4 +1130,7 @@ padding-right:50px
      padding-left:50px;
     padding-right:50px
   } 
+  .footer, .container3 {
+    padding:20px;
+  }
 }
