@@ -17,11 +17,12 @@
 
   li {
     float: left;
+    width: 25%;
   }
 
   li a {
     display: block;
-    text-align: center;
+    text-align: left;
     color: white;
     background-color: #FD7F20;
     padding: 14px 16px;
@@ -35,13 +36,17 @@
   .active {
     background-color: #0E86D4;
   }
-
   .home {
     background-color: black;
     color: white;
     border-radius: 4px;
     padding: 5px 25px;
     margin-bottom: 10px;
+  }
+
+  .menu, careers {
+    text-align: center;
+    padding: 14px 16px;
   }
 
   .menu {
@@ -109,7 +114,7 @@
     cursor: pointer;
   }
 
-  .container2 input[type=text] {
+  .container3 input[type=text] {
     background-color: #FBE7C6;
     color: black;
     border: 1px solid black;
@@ -153,27 +158,33 @@
 }
 .gridcontainer {
 img {
-  height: 215px;
-  width: 215px;
+  height: 115px;
+  width: 115px;
  padding-top:100px;
  padding-left:50px;
 padding-right:50px
 }
-
-  @keyframes sepiaFilter{
-    from {
-      filter: sepia(0%);
-    }
-    to {
-      filter: sepia(100%);
-    }
+  .gridcontainer img {
+     animation: sepiaFilter 10s forwards;
   }
+    @keyframes sepiaFilter{
+      from {
+        filter: sepia(0%);
+        height: 115px;
+        width: 115px;
+      }
+      to {
+        filter: sepia(200%);
+        height: 215px;
+        width: 215px;
+      }
+    }
 }
 
 .gridcontainer2 {
   img {
-    height: 215px;
-    width: 215px;
+    height: 115px;
+    width: 115px;
    padding-top:100px;
    padding-left:50px;
   padding-right:50px;
@@ -199,6 +210,7 @@ padding-right:50px
 
   li {
     float: left;
+    width: 25%;
   }
 
   li a {
@@ -291,7 +303,7 @@ padding-right:50px
     cursor: pointer;
   }
 
-  .container2 input[type=text] {
+  .container3 input[type=text] {
     background-color: #FBE7C6;
     color: black;
     border: 1px solid black;
@@ -353,6 +365,9 @@ padding-right:50px
      padding-left:50px;
     padding-right:50px
   } 
+  .footer {
+    padding:20px;
+  }
 }
 @media screen and (min-width: 600px) {
   body {
@@ -373,6 +388,7 @@ padding-right:50px
 
   li {
     float: left;
+    width: 25%;
   }
 
   li a {
@@ -465,7 +481,183 @@ padding-right:50px
     cursor: pointer;
   }
 
-  .container2 input[type=text] {
+  .container3 input[type=text] {
+    background-color: #FBE7C6;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  h4 {
+    font-size: 1.6rem;
+  }
+
+  h5 {
+    font-size: 1.4rem;
+  }
+
+  li {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .gridcontainer, .gridcontainer2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+  }
+
+  .gridcontainer img {
+     animation: sepiaFilter 10s forwards;
+  }
+    @keyframes sepiaFilter{
+      from {
+        filter: sepia(0%);
+        height: 100px;
+        width: 100px;
+      }
+      to {
+        filter: sepia(200%);
+        height: 200px;
+        width: 200px;
+      }
+    }
+  .gridcontainer2 img {
+     animation: sepiaFilter 10s forwards;
+     padding-top:100px;
+     padding-left:50px;
+    padding-right:50px
+  } 
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-color: #FBE7C6;
+  }
+
+  html {
+    height: 100%;
+    width: 100%;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li {
+    float: left;
+    width: 25%;
+  }
+
+  li a {
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: #FD7F20;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #0E86D4;
+  }
+
+  .active {
+    background-color: #0E86D4;
+  }
+
+  .home {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    padding: 5px 25px;
+    margin-bottom: 10px;
+  }
+
+  .menu {
+    background-color: black;
+    color: #FBE7C6;
+    border-radius: 20px;
+    padding: 15px 25px;
+    margin-bottom: 10px;
+  }
+
+  .careers:hover {
+    background-color: orange;
+  }
+
+  .menu:hover {
+    background-color: blue;
+  }
+
+  .careers {
+    background-color: #FBE7C6;
+    color: black;
+    border-radius: 20px;
+    padding: 15px 25px;
+    margin-bottom: 10px;
+  }
+
+  input[type=text],
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit],
+  input[type=subscribe] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  input[type=submit]:hover,
+  input[type=subscribe]:hover {
+    background-color: grey;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  li a,
+  input[type=submit],
+  input[type=subscribe],
+  .home,
+  .menu,
+  .careers {
+    cursor: pointer;
+  }
+
+  .container3 input[type=text] {
     background-color: #FBE7C6;
     color: black;
     border: 1px solid black;
@@ -520,172 +712,26 @@ padding-right:50px
     padding-right:50px
     }
   } 
-}
-@media screen and (min-width: 768px) {
-  body {
-    background-color: #FBE7C6;
+  .gridcontainer img {
+     animation: sepiaFilter 10s forwards;
   }
-
-  html {
-    height: 100%;
-    width: 100%;
-  }
-
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-
-  li {
-    float: left;
-  }
-
-  li a {
-    display: block;
-    text-align: center;
-    color: white;
-    background-color: #FD7F20;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
-  li a:hover {
-    background-color: #0E86D4;
-  }
-
-  .active {
-    background-color: #0E86D4;
-  }
-
-  .home {
-    background-color: black;
-    color: white;
-    border-radius: 4px;
-    padding: 5px 25px;
-    margin-bottom: 10px;
-  }
-
-  .menu {
-    background-color: black;
-    color: #FBE7C6;
-    border-radius: 20px;
-    padding: 15px 25px;
-    margin-bottom: 10px;
-  }
-
-  .careers:hover {
-    background-color: orange;
-  }
-
-  .menu:hover {
-    background-color: blue;
-  }
-
-  .careers {
-    background-color: #FBE7C6;
-    color: black;
-    border-radius: 20px;
-    padding: 15px 25px;
-    margin-bottom: 10px;
-  }
-
-  input[type=text],
-  textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-
-  input[type=submit],
-  input[type=subscribe] {
-    background-color: black;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-  }
-
-  input[type=submit]:hover,
-  input[type=subscribe]:hover {
-    background-color: grey;
-  }
-
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
-
-  li a,
-  input[type=submit],
-  input[type=subscribe],
-  .home,
-  .menu,
-  .careers {
-    cursor: pointer;
-  }
-
-  .container2 input[type=text] {
-    background-color: #FBE7C6;
-    color: black;
-    border: 1px solid black;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-
-  h1 {
-    font-size: 50px;
-  }
-
-  h2 {
-    font-size: 2rem;
-  }
-
-  h3 {
-    font-size: 1.8rem;
-  }
-
-  h4 {
-    font-size: 1.6rem;
-  }
-
-  h5 {
-    font-size: 1.4rem;
-  }
-
-  li {
-    font-size: 1.2rem;
-  }
-
-  p {
-    font-size: 1.2rem;
-  }
-
-  .gridcontainer, .gridcontainer2 {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 20px;
-  }
-
-  img {
-  height: 315px;
-  width: 315px;
-  }
-  .gridcontainer2 {
-    img {
-      height: 215px;
-      width: 215px;
+    @keyframes sepiaFilter{
+      from {
+        filter: sepia(0%);
+        height: 315px;
+        width: 315px;
+      }
+      to {
+        filter: sepia(200%);
+        height: 400px;
+        width: 400px;
+      }
+    }
+  .gridcontainer2 img {
+     animation: sepiaFilter 10s forwards;
      padding-top:100px;
      padding-left:50px;
     padding-right:50px
-    }
   } 
 }
 
@@ -708,6 +754,7 @@ padding-right:50px
 
   li {
     float: left;
+    width: 25%;
   }
 
   li a {
@@ -800,7 +847,7 @@ padding-right:50px
     cursor: pointer;
   }
 
-  .container2 input[type=text] {
+  .container3 input[type=text] {
     background-color: #FBE7C6;
     color: black;
     border: 1px solid black;
@@ -855,6 +902,27 @@ padding-right:50px
     padding-right:50px
     }
   } 
+  .gridcontainer img {
+     animation: sepiaFilter 10s forwards;
+  }
+    @keyframes sepiaFilter{
+      from {
+        filter: sepia(0%);
+        height: 315px;
+        width: 315px;
+      }
+      to {
+        filter: sepia(200%);
+        height: 400px;
+        width: 400px;
+      }
+    }
+  .gridcontainer2 img {
+     animation: sepiaFilter 10s forwards;
+     padding-top:100px;
+     padding-left:50px;
+    padding-right:50px
+  } 
 }
 @media screen and (min-width: 1200px) {
   body {
@@ -875,9 +943,12 @@ padding-right:50px
 
   li {
     float: left;
+    width: 25%;
   }
 
   li a {
+    margin-top:50px;
+    margin-bottom:2px;
     display: block;
     text-align: center;
     color: white;
@@ -966,41 +1037,45 @@ padding-right:50px
   .careers {
     cursor: pointer;
   }
-
-  .container2 input[type=text] {
+  
+  label[for=fullname], label[for=email] {
+    font-size: 1.5rem;
+  }
+  .container3 input[type=text] {
     background-color: #FBE7C6;
     color: black;
     border: 1px solid black;
     border-radius: 4px;
     box-sizing: border-box;
+    font-size: 1.5rem;
   }
 
   h1 {
-    font-size: 80px;
+    font-size: 100px;
   }
 
   h2 {
-    font-size: 5rem;
-  }
-
-  h3 {
-    font-size: 3rem;
-  }
-
-  h4 {
     font-size: 2rem;
   }
 
-  h5 {
+  h3 {
     font-size: 1.9rem;
   }
 
-  li {
+  h4 {
     font-size: 1.8rem;
   }
 
+  h5 {
+    font-size: 1.7rem;
+  }
+
+  li {
+    font-size: 1.5rem;
+  }
+
   p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   .gridcontainer, .gridcontainer2 {
@@ -1021,5 +1096,26 @@ padding-right:50px
      padding-left:50px;
     padding-right:50px
     }
+  } 
+  .gridcontainer img {
+     animation: sepiaFilter 10s forwards;
+  }
+    @keyframes sepiaFilter{
+      from {
+        filter: sepia(0%);
+        height: 315px;
+        width: 315px;
+      }
+      to {
+        filter: sepia(200%);
+        height: 400px;
+        width: 400px;
+      }
+    }
+  .gridcontainer2 img {
+     animation: sepiaFilter 10s forwards;
+     padding-top:100px;
+     padding-left:50px;
+    padding-right:50px
   } 
 }
