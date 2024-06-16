@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 @media screen and (max-width: 600px) {
   body {
     background-color: #FBE7C6;
@@ -124,6 +125,9 @@
 
   h1 {
     font-size: 50px;
+    font-family: "Jua", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
   }
 
   h2 {
@@ -158,8 +162,8 @@
 }
 .gridcontainer {
 img {
-  height: 115px;
-  width: 115px;
+  height: 200px;
+  width: 200px;
  padding-top:100px;
  padding-left:50px;
 padding-right:50px
@@ -170,27 +174,27 @@ padding-right:50px
     @keyframes sepiaFilter{
       from {
         filter: sepia(0%);
-        height: 115px;
-        width: 115px;
+        height: 200px;
+        width: 200px;
       }
       to {
         filter: sepia(200%);
-        height: 215px;
-        width: 215px;
+        height: 315px;
+        width: 315px;
       }
     }
 }
 
 .gridcontainer2 {
   img {
-    height: 115px;
-    width: 115px;
+    height: 200px;
+    width: 200px;
    padding-top:100px;
    padding-left:50px;
   padding-right:50px;
   }
-  .footer, .container3 {
-    padding:20px;
+  .footer, container3 {
+    padding-right:40px;
   }
 } 
 
@@ -316,6 +320,9 @@ padding-right:50px
 
   h1 {
     font-size: 50px;
+    font-family: "Jua", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
   }
 
   h2 {
@@ -366,7 +373,7 @@ padding-right:50px
      animation: sepiaFilter 10s forwards;
      padding-top:100px;
      padding-left:50px;
-    padding-right:50px
+    padding-right:50px;
   } 
   .footer, .container3 {
     padding:20px;
@@ -494,6 +501,9 @@ padding-right:50px
 
   h1 {
     font-size: 50px;
+    font-family: "Jua", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
   }
 
   h2 {
@@ -673,6 +683,9 @@ padding-right:50px
 
   h1 {
     font-size: 50px;
+    font-family: "Jua", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
   }
 
   h2 {
@@ -866,6 +879,9 @@ padding-right:50px
 
   h1 {
     font-size: 50px;
+    font-family: "Jua", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
   }
 
   h2 {
@@ -1064,30 +1080,33 @@ padding-right:50px
 
   h1 {
     font-size: 100px;
+    font-family: "Jua", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 2em;
   }
 
   h3 {
-    font-size: 1.9rem;
+    font-size: 1.8em;
   }
 
   h4 {
-    font-size: 1.8rem;
+    font-size: 1.em;
   }
 
   h5 {
-    font-size: 1.7rem;
+    font-size: 1.6em;
   }
 
   li {
-    font-size: 1.5rem;
+    font-size: 1.5em;
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 1.5em;
   }
 
   .gridcontainer, .gridcontainer2 {
