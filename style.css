@@ -154,13 +154,13 @@
     font-size: 1.2rem;
   }
 
-  .gridcontainer, .gridcontainer2 {
+  .gridcontainer, .gridcontainer2, .gridcontainer3 {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 40px;
   }
 }
-.gridcontainer {
+.gridcontainer, .gridcontainer3 {
 img {
   height: 200px;
   width: 200px;
@@ -349,13 +349,21 @@ padding-right:50px
     font-size: 1.2rem;
   }
 
-  .gridcontainer, .gridcontainer2 {
+  .gridcontainer, .gridcontainer2, .gridcontainer3 {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 20px;
   }
   .gridcontainer img {
      animation: sepiaFilter 10s forwards;
+  }
+  .gridcontainer, .gridcontainer3 {
+  img {
+    height: 315px;
+    width: 315px;
+   padding-top:100px;
+   padding-left:50px;
+  padding-right:50px
   }
     @keyframes sepiaFilter{
       from {
@@ -530,12 +538,19 @@ padding-right:50px
     font-size: 1.2rem;
   }
 
-  .gridcontainer, .gridcontainer2 {
+  .gridcontainer, .gridcontainer2, .gridcontainer3 {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 20px;
   }
-
+  .gridcontainer, .gridcontainer3 {
+  img {
+    height: 200px;
+    width: 200px;
+   padding-top:100px;
+   padding-left:50px;
+  padding-right:50px
+  }
   .gridcontainer img {
      animation: sepiaFilter 10s forwards;
   }
@@ -712,15 +727,19 @@ padding-right:50px
     font-size: 1.2rem;
   }
 
-  .gridcontainer, .gridcontainer2 {
+  .gridcontainer, .gridcontainer2, .gridcontainer3 {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 20px;
   }
 
+  .gridcontainer, .gridcontainer3 {
   img {
-  height: 315px;
-  width: 315px;
+    height: 200px;
+    width: 200px;
+   padding-top:100px;
+   padding-left:50px;
+  padding-right:50px
   }
   .gridcontainer2 {
     img {
@@ -908,15 +927,19 @@ padding-right:50px
     font-size: 1.2rem;
   }
 
-  .gridcontainer, .gridcontainer2 {
+  .gridcontainer, .gridcontainer2, .gridcontainer3 {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 20px;
   }
 
+  .gridcontainer, .gridcontainer3 {
   img {
-  height: 315px;
-  width: 315px;
+    height: 200px;
+    width: 200px;
+   padding-top:100px;
+   padding-left:50px;
+  padding-right:50px
   }
   .gridcontainer2 {
     img {
@@ -1109,15 +1132,18 @@ padding-right:50px
     font-size: 1.5em;
   }
 
-  .gridcontainer, .gridcontainer2 {
+  .gridcontainer, .gridcontainer2, .gridcontainer3 {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 20px;
   }
-
+  .gridcontainer, .gridcontainer3 {
   img {
-  height: 315px;
-  width: 315px;
+    height: 200px;
+    width: 200px;
+   padding-top:100px;
+   padding-left:50px;
+  padding-right:50px
   }
   .gridcontainer2 {
     img {
