@@ -169,14 +169,18 @@
 
   .gridcontainer,
   .gridcontainer2,
-  .gridcontainer3 {
+  .gridcontainer3, .gridcontainer4,
+  .gridcontainer5,
+  .gridcontainer6, .gridcontainer7   {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 40px;
   }
 
 .gridcontainer,
-.gridcontainer3 {
+.gridcontainer3, .gridcontainer4,
+  .gridcontainer5,
+  .gridcontainer6, .gridcontainer7  {
   img {
     height: 200px;
     width: 200px;
@@ -188,6 +192,15 @@
   .gridcontainer img {
     animation: sepiaFilter 10s forwards;
   }
+  .gridcontainer3 img {
+      animation: sepiaFilter 10s forwards;
+  }
+    .gridcontainer5 img {
+        animation: sepiaFilter 10s forwards;
+    }
+    .gridcontainer7 img {
+        animation: sepiaFilter 10s forwards;
+    }
 
   @keyframes sepiaFilter {
     from {
@@ -379,7 +392,9 @@
 
   .gridcontainer,
   .gridcontainer2,
-  .gridcontainer3 {
+  .gridcontainer3, .gridcontainer4,
+  .gridcontainer5,
+  .gridcontainer6, .gridcontainer7  {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 20px;
@@ -388,9 +403,20 @@
   .gridcontainer img {
     animation: sepiaFilter 10s forwards;
   }
+  .gridcontainer3 img {
+    animation: sepiaFilter 10s forwards;
+  }
+  .gridcontainer5 img {
+      animation: sepiaFilter 10s forwards;
+  }
+  .gridcontainer7 img {
+      animation: sepiaFilter 10s forwards;
+  }
 
   .gridcontainer,
-  .gridcontainer3 {
+  .gridcontainer3, .gridcontainer4,
+  .gridcontainer5,
+  .gridcontainer6, .gridcontainer7  {
     img {
       height: 315px;
       width: 315px;
@@ -586,14 +612,18 @@
 
   .gridcontainer,
   .gridcontainer2,
-  .gridcontainer3 {
+  .gridcontainer3, .gridcontainer4,
+  .gridcontainer5,
+  .gridcontainer6, .gridcontainer7  {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 20px;
   }
 
   .gridcontainer,
-  .gridcontainer3 {
+  .gridcontainer3, .gridcontainer4,
+  .gridcontainer5,
+  .gridcontainer6, .gridcontainer7  {
     img {
       height: 200px;
       width: 200px;
@@ -615,6 +645,15 @@
     .gridcontainer img {
       animation: sepiaFilter 10s forwards;
     }
+  .gridcontainer3 img {
+    animation: sepiaFilter 10s forwards;
+  }
+  .gridcontainer5 img {
+      animation: sepiaFilter 10s forwards;
+  }
+  .gridcontainer7 img {
+      animation: sepiaFilter 10s forwards;
+  }
 
     @keyframes sepiaFilter {
       from {
@@ -795,14 +834,18 @@
 
   .gridcontainer,
   .gridcontainer2,
-  .gridcontainer3 {
+  .gridcontainer3, .gridcontainer4,
+  .gridcontainer5,
+  .gridcontainer6, .gridcontainer7  {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 20px;
   }
 
   .gridcontainer,
-  .gridcontainer3 {
+  .gridcontainer3, .gridcontainer4,
+  .gridcontainer5,
+  .gridcontainer6, .gridcontainer7  {
     img {
       height: 200px;
       width: 200px;
@@ -823,6 +866,15 @@
 
     .gridcontainer img {
       animation: sepiaFilter 10s forwards;
+    }
+    .gridcontainer3 img {
+      animation: sepiaFilter 10s forwards;
+    }
+    .gridcontainer5 img {
+        animation: sepiaFilter 10s forwards;
+    }
+    .gridcontainer7 img {
+        animation: sepiaFilter 10s forwards;
     }
 
     @keyframes sepiaFilter {
@@ -1012,14 +1064,18 @@
 
   .gridcontainer,
   .gridcontainer2,
-  .gridcontainer3 {
+  .gridcontainer3, .gridcontainer4,
+  .gridcontainer5,
+  .gridcontainer6, .gridcontainer7  {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 20px;
   }
 
   .gridcontainer,
-  .gridcontainer3 {
+  .gridcontainer3, .gridcontainer4,
+  .gridcontainer5,
+  .gridcontainer6, .gridcontainer7  {
     img {
       height: 200px;
       width: 200px;
@@ -1041,7 +1097,15 @@
 .gridcontainer img {
   animation: sepiaFilter 10s forwards;
 }
-
+  .gridcontainer3 img {
+    animation: sepiaFilter 10s forwards;
+  }
+  .gridcontainer5 img {
+      animation: sepiaFilter 10s forwards;
+  }
+  .gridcontainer7 img {
+      animation: sepiaFilter 10s forwards;
+  }
 @keyframes sepiaFilter {
   from {
     filter: sepia(0%);
@@ -1232,14 +1296,18 @@
 
   .gridcontainer,
   .gridcontainer2,
-  .gridcontainer3 {
+  .gridcontainer3, .gridcontainer4,
+  .gridcontainer5,
+  .gridcontainer6, .gridcontainer7 {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 20px;
   }
 
   .gridcontainer,
-  .gridcontainer3 {
+  .gridcontainer3, .gridcontainer4,
+  .gridcontainer5,
+  .gridcontainer6, .gridcontainer7 {
     img {
       height: 200px;
       width: 200px;
@@ -1261,6 +1329,15 @@
     .gridcontainer img {
       animation: sepiaFilter 10s forwards;
     }
+  .gridcontainer3 img {
+    animation: sepiaFilter 10s forwards;
+  }
+  .gridcontainer5 img {
+      animation: sepiaFilter 10s forwards;
+  }
+  .gridcontainer7 img {
+      animation: sepiaFilter 10s forwards;
+  }
 
     @keyframes sepiaFilter {
       from {
