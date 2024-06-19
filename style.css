@@ -48,6 +48,7 @@
     border-radius: 4px;
     padding: 5px 25px;
     margin-bottom: 10px;
+    margin-left:40px;
   }
 
   .menu,
@@ -62,6 +63,7 @@
     border-radius: 20px;
     padding: 15px 25px;
     margin-bottom: 10px;
+    margin-left:40px;
   }
 
   .careers:hover {
@@ -78,6 +80,7 @@
     border-radius: 20px;
     padding: 15px 25px;
     margin-bottom: 10px;
+    margin-left:40px;
   }
  
   input[type=text],
@@ -100,12 +103,12 @@
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
-    margin-left: 40px;
+    margin-left: 80px;
   }
 
   label[for=fullname],
-  label[for=email],  label[for=subject]{
-    margin-left: 40px;
+  label[for=email], label[for=subject] {
+    margin-left: 80px;
   }
 
   input[type=submit]:hover,
@@ -134,7 +137,7 @@
     border: 1px solid black;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-left: 40px;
+    margin-left: 80px;
   }
 h1, h2, h3, h4, h5, h6, p {
   margin-left: 40px;
@@ -288,6 +291,7 @@ h1, h2, h3, h4, h5, h6, p {
     border-radius: 20px;
     padding: 15px 25px;
     margin-bottom: 10px;
+    margin-left:40px;
   }
 
   .careers:hover {
@@ -304,6 +308,11 @@ h1, h2, h3, h4, h5, h6, p {
     border-radius: 20px;
     padding: 15px 25px;
     margin-bottom: 10px;
+    margin-left:40px;
+  }
+
+  .footer {
+    margin-left:20px;
   }
 
   input[type=text],
@@ -321,7 +330,7 @@ h1, h2, h3, h4, h5, h6, p {
 
   label[for=fullname],
   label[for=email], label[for=subject] {
-    margin-left: 15px;
+    margin-left: 57px;
   }
 
   input[type=submit],
@@ -331,7 +340,7 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
-    margin-left:15px;
+    margin-left:57px;
   }
 
   input[type=submit]:hover,
@@ -360,7 +369,7 @@ h1, h2, h3, h4, h5, h6, p {
     border: 1px solid black;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-left:15px;
+    margin-left:57px;
   }
   h1, h2, h3, h4, h5, h6, p {
     margin-left: 40px;
@@ -428,7 +437,7 @@ h1, h2, h3, h4, h5, h6, p {
       width: 315px;
       padding-top: 100px;
       padding-left: 50px;
-      padding-right: 50px
+      padding-right: 50px;
     }
 
     @keyframes sepiaFilter {
@@ -447,6 +456,8 @@ h1, h2, h3, h4, h5, h6, p {
 
     .gridcontainer2 img {
       animation: sepiaFilter 10s forwards;
+      height:315px;
+      width:315px;
       padding-top: 100px;
       padding-left: 50px;
       padding-right: 50px;
@@ -507,6 +518,7 @@ h1, h2, h3, h4, h5, h6, p {
     border-radius: 20px;
     padding: 15px 25px;
     margin-bottom: 10px;
+    margin-left:40px;
   }
 
   .careers:hover {
@@ -523,10 +535,11 @@ h1, h2, h3, h4, h5, h6, p {
     border-radius: 20px;
     padding: 15px 25px;
     margin-bottom: 10px;
+    margin-left:40px;
   }
 
   .footer {
-    margin-left: 15px;
+    margin-left:20px;
   }
 
   input[type=text],
@@ -549,7 +562,6 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
-    margin-left: 15px;
   }
 
   input[type=submit]:hover,
@@ -557,10 +569,10 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: grey;
   }
 
-  label[for=fullname],
+  /**label[for=fullname],
   label[for=email], label[for=subject] {
     margin-left: 15px;
-  }
+  }**/
 
   .container {
     border-radius: 5px;
@@ -583,7 +595,6 @@ h1, h2, h3, h4, h5, h6, p {
     border: 1px solid black;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-left: 15px;
   }
   h1, h2, h3, h4, h5, h6, p {
     margin-left: 40px;
@@ -640,17 +651,6 @@ h1, h2, h3, h4, h5, h6, p {
       padding-left: 50px;
       padding-right: 50px
     }
-
-    .gridcontainer2 {
-      img {
-        height: 215px;
-        width: 215px;
-        padding-top: 100px;
-        padding-left: 50px;
-        padding-right: 50px
-      }
-    }
-
     .gridcontainer img {
       animation: sepiaFilter 10s forwards;
     }
@@ -680,9 +680,11 @@ h1, h2, h3, h4, h5, h6, p {
 
     .gridcontainer2 img {
       animation: sepiaFilter 10s forwards;
+      height:315px;
+      width:315px;
       padding-top: 100px;
       padding-left: 50px;
-      padding-right: 50px
+      padding-right: 50px;
     }
   }
 }
@@ -732,6 +734,7 @@ h1, h2, h3, h4, h5, h6, p {
     border-radius: 4px;
     padding: 5px 25px;
     margin-bottom: 10px;
+    margin-left:40px;
   }
 
   .menu {
@@ -740,6 +743,7 @@ h1, h2, h3, h4, h5, h6, p {
     border-radius: 20px;
     padding: 15px 25px;
     margin-bottom: 10px;
+    margin-left:40px;
   }
 
   .careers:hover {
@@ -756,6 +760,7 @@ h1, h2, h3, h4, h5, h6, p {
     border-radius: 20px;
     padding: 15px 25px;
     margin-bottom: 10px;
+    margin-left:40px;
   }
 
   footer {
@@ -871,17 +876,7 @@ h1, h2, h3, h4, h5, h6, p {
       width: 200px;
       padding-top: 100px;
       padding-left: 50px;
-      padding-right: 50px
-    }
-
-    .gridcontainer2 {
-      img {
-        height: 215px;
-        width: 215px;
-        padding-top: 100px;
-        padding-left: 50px;
-        padding-right: 50px;
-      }
+      padding-right: 50px;
     }
   }
 .gridcontainer img {
@@ -909,13 +904,14 @@ h1, h2, h3, h4, h5, h6, p {
     width: 400px;
   }
 }
-
-.gridcontainer2 img {
-  animation: sepiaFilter 10s forwards;
-  padding-top: 100px;
-  padding-left: 50px;
-  padding-right: 50px
-}
+  .gridcontainer2 img {
+    animation: sepiaFilter 10s forwards;
+    height:315px;
+    width:315px;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -973,6 +969,7 @@ h1, h2, h3, h4, h5, h6, p {
     border-radius: 20px;
     padding: 15px 25px;
     margin-bottom: 10px;
+    margin-left:40px;
   }
 
   .careers:hover {
@@ -989,6 +986,7 @@ h1, h2, h3, h4, h5, h6, p {
     border-radius: 20px;
     padding: 15px 25px;
     margin-bottom: 10px;
+    margin-left:40px;
   }
 
   footer {
@@ -1015,7 +1013,7 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
-    margin-left: 15px;
+    margin-left: 57px;
   }
 
   input[type=submit]:hover,
@@ -1041,7 +1039,7 @@ h1, h2, h3, h4, h5, h6, p {
   label[for=fullname],
   label[for=email], label[for=subject] {
     font-size: 1.5rem;
-    margin-left: 15px;
+    margin-left: 57px;
   }
 
   .container3 input[type=text] {
@@ -1051,7 +1049,7 @@ h1, h2, h3, h4, h5, h6, p {
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 1.5rem;
-    margin-left: 15px;
+    margin-left: 57px;
   }
   h1, h2, h3, h4, h5, h6, p {
     margin-left: 40px;
@@ -1109,15 +1107,6 @@ h1, h2, h3, h4, h5, h6, p {
       padding-right: 50px;
     }
   }
-    .gridcontainer2 {
-      img {
-        height: 215px;
-        width: 215px;
-        padding-top: 100px;
-        padding-left: 50px;
-        padding-right: 50px
-      }
-    }
 
     .gridcontainer img {
       animation: sepiaFilter 10s forwards;
@@ -1148,8 +1137,10 @@ h1, h2, h3, h4, h5, h6, p {
 
     .gridcontainer2 img {
       animation: sepiaFilter 10s forwards;
+      height:315px;
+      width:315px;
       padding-top: 100px;
       padding-left: 50px;
-      padding-right: 50px
+      padding-right: 50px;
     }
 }
