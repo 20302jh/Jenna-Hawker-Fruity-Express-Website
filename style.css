@@ -30,16 +30,29 @@
     text-decoration: none;
   }
 
-  li a:hover {
-    background-color: #000C66;
-  }
-
+  li a:hover,
   .active {
     background-color: #000C66;
   }
 
-  footer {
+  footer,
+  .home,
+  .menu,
+  .careers,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  input[type=text],
+  textarea {
     margin-left: 40px;
+  }
+
+  .home, .menu, .careers {
+  margin-bottom: 10px;
   }
 
   .home {
@@ -47,8 +60,6 @@
     color: white;
     border-radius: 4px;
     padding: 5px 25px;
-    margin-bottom: 10px;
-    margin-left:40px;
   }
 
   .menu,
@@ -62,8 +73,6 @@
     color: #FBE7C6;
     border-radius: 20px;
     padding: 15px 25px;
-    margin-bottom: 10px;
-    margin-left:40px;
   }
 
   .careers:hover {
@@ -79,10 +88,8 @@
     color: black;
     border-radius: 20px;
     padding: 15px 25px;
-    margin-bottom: 10px;
-    margin-left:40px;
   }
- 
+
   input[type=text],
   textarea {
     width: 100%;
@@ -92,7 +99,6 @@
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    margin-left:40px;
     resize: vertical;
   }
 
@@ -103,11 +109,14 @@
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
-    margin-left: 80px;
   }
 
+  input[type=submit],
+  input[type=subscribe],
   label[for=fullname],
-  label[for=email], label[for=subject] {
+  label[for=email],
+  label[for=subject],
+  .container3 input[type=text] {
     margin-left: 80px;
   }
 
@@ -137,11 +146,8 @@
     border: 1px solid black;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-left: 80px;
   }
-h1, h2, h3, h4, h5, h6, p {
-  margin-left: 40px;
-}
+
   h1 {
     font-size: 50px;
     font-family: "Jua", sans-serif;
@@ -175,63 +181,50 @@ h1, h2, h3, h4, h5, h6, p {
 
   .gridcontainer,
   .gridcontainer2,
-  .gridcontainer3, .gridcontainer4,
+  .gridcontainer3,
+  .gridcontainer4,
   .gridcontainer5,
-  .gridcontainer6, .gridcontainer7   {
+  .gridcontainer6,
+  .gridcontainer7 {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 40px;
   }
 
-.gridcontainer,
-.gridcontainer3, .gridcontainer4,
+  .gridcontainer,
+  .gridcontainer2,
+  .gridcontainer3,
+  .gridcontainer4,
   .gridcontainer5,
-  .gridcontainer6, .gridcontainer7  {
-  img {
-    height: 200px;
-    width: 200px;
-    padding-top: 100px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
-  .gridcontainer img {
-    animation: sepiaFilter 10s forwards;
-  }
-  .gridcontainer3 img {
-      animation: sepiaFilter 10s forwards;
-  }
-    .gridcontainer5 img {
-        animation: sepiaFilter 10s forwards;
-    }
-    .gridcontainer7 img {
-        animation: sepiaFilter 10s forwards;
-    }
-
-  @keyframes sepiaFilter {
-    from {
-      filter: sepia(0%);
+  .gridcontainer6,
+  .gridcontainer7 {
+    img {
       height: 200px;
       width: 200px;
+      padding-top: 100px;
+      padding-left: 50px;
+      padding-right: 50px;
     }
 
-    to {
-      filter: sepia(200%);
-      height: 315px;
-      width: 315px;
+    .gridcontainer img,
+    .gridcontainer3 img,
+    .gridcontainer5 img,
+    .gridcontainer7 img {
+      animation: sepiaFilter 10s forwards;
+    }
+
+    @keyframes sepiaFilter {
+      from {
+        height: 200px;
+        width: 200px;
+      }
+
+      to {
+        height: 315px;
+        width: 315px;
+      }
     }
   }
-}
-
-.gridcontainer2 {
-  img {
-    height: 200px;
-    width: 200px;
-    padding-top: 100px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-}
 }
 
 @media screen and (min-width: 600px) {
@@ -265,12 +258,30 @@ h1, h2, h3, h4, h5, h6, p {
     text-decoration: none;
   }
 
-  li a:hover {
+  li a:hover,
+  .active {
     background-color: #000C66;
   }
 
-  .active {
-    background-color: #000C66;
+  .home,
+  .menu,
+  .careers,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  input[type=text],
+  textarea {
+    margin-left: 40px;
+  }
+
+  .home,
+  .menu,
+  .careers {
+    margin-bottom: 10px;
   }
 
   .home {
@@ -278,7 +289,6 @@ h1, h2, h3, h4, h5, h6, p {
     color: white;
     border-radius: 4px;
     padding: 5px 25px;
-    margin-bottom: 10px;
   }
 
   .menu {
@@ -286,8 +296,6 @@ h1, h2, h3, h4, h5, h6, p {
     color: #FBE7C6;
     border-radius: 20px;
     padding: 15px 25px;
-    margin-bottom: 10px;
-    margin-left:40px;
   }
 
   .careers:hover {
@@ -303,12 +311,10 @@ h1, h2, h3, h4, h5, h6, p {
     color: black;
     border-radius: 20px;
     padding: 15px 25px;
-    margin-bottom: 10px;
-    margin-left:40px;
   }
 
   footer {
-    margin-left:20px;
+    margin-left: 20px;
   }
 
   input[type=text],
@@ -320,12 +326,15 @@ h1, h2, h3, h4, h5, h6, p {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    margin-left:40px;
     resize: vertical;
   }
 
   label[for=fullname],
-  label[for=email], label[for=subject] {
+  label[for=email],
+  label[for=subject],
+  input[type=submit],
+  input[type=subscribe],
+  .container3 input[type=text] {
     margin-left: 57px;
   }
 
@@ -336,7 +345,6 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
-    margin-left:57px;
   }
 
   input[type=submit]:hover,
@@ -365,11 +373,8 @@ h1, h2, h3, h4, h5, h6, p {
     border: 1px solid black;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-left:57px;
   }
-  h1, h2, h3, h4, h5, h6, p {
-    margin-left: 40px;
-  }
+
   h1 {
     font-size: 50px;
     font-family: "Jua", sans-serif;
@@ -403,60 +408,40 @@ h1, h2, h3, h4, h5, h6, p {
 
   .gridcontainer,
   .gridcontainer2,
-  .gridcontainer3, .gridcontainer4,
+  .gridcontainer3,
+  .gridcontainer4,
   .gridcontainer5,
-  .gridcontainer6, .gridcontainer7  {
+  .gridcontainer6,
+  .gridcontainer7 {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 20px;
   }
 
-  .gridcontainer img {
-    animation: sepiaFilter 10s forwards;
-  }
-  .gridcontainer3 img {
-    animation: sepiaFilter 10s forwards;
-  }
-  .gridcontainer5 img {
-      animation: sepiaFilter 10s forwards;
-  }
+  .gridcontainer img,
+  .gridcontainer2 img,
+  .gridcontainer3 img,
+  .gridcontainer4 img,
+  .gridcontainer5 img,
+  .gridcontainer6 img,
   .gridcontainer7 img {
-      animation: sepiaFilter 10s forwards;
+    animation: sepiaFilter 10s forwards;
+    height: 315px;
+    width: 315px;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
-  .gridcontainer,
-  .gridcontainer3, .gridcontainer4,
-  .gridcontainer5,
-  .gridcontainer6, .gridcontainer7  {
-    img {
+  @keyframes sepiaFilter {
+    from {
+      height: 200px;
+      width: 200px;
+    }
+
+    to {
       height: 315px;
       width: 315px;
-      padding-top: 100px;
-      padding-left: 50px;
-      padding-right: 50px;
-    }
-
-    @keyframes sepiaFilter {
-      from {
-        filter: sepia(0%);
-        height: 315px;
-        width: 315px;
-      }
-
-      to {
-        filter: sepia(200%);
-        height: 400px;
-        width: 400px;
-      }
-    }
-
-    .gridcontainer2 img {
-      animation: sepiaFilter 10s forwards;
-      height:315px;
-      width:315px;
-      padding-top: 100px;
-      padding-left: 50px;
-      padding-right: 50px;
     }
   }
 }
@@ -492,12 +477,30 @@ h1, h2, h3, h4, h5, h6, p {
     text-decoration: none;
   }
 
-  li a:hover {
+  li a:hover,
+  .active {
     background-color: #000C66;
   }
 
-  .active {
-    background-color: #000C66;
+  .home,
+  .menu,
+  .careers,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  input[type=text],
+  textarea {
+    margin-left: 40px;
+  }
+
+  .home,
+  .menu,
+  .careers {
+    margin-bottom: 10px;
   }
 
   .home {
@@ -505,7 +508,6 @@ h1, h2, h3, h4, h5, h6, p {
     color: white;
     border-radius: 4px;
     padding: 5px 25px;
-    margin-bottom: 10px;
   }
 
   .menu {
@@ -513,8 +515,6 @@ h1, h2, h3, h4, h5, h6, p {
     color: #FBE7C6;
     border-radius: 20px;
     padding: 15px 25px;
-    margin-bottom: 10px;
-    margin-left:40px;
   }
 
   .careers:hover {
@@ -530,12 +530,10 @@ h1, h2, h3, h4, h5, h6, p {
     color: black;
     border-radius: 20px;
     padding: 15px 25px;
-    margin-bottom: 10px;
-    margin-left:40px;
   }
 
   footer {
-    margin-left:20px;
+    margin-left: 20px;
   }
 
   input[type=text],
@@ -547,7 +545,6 @@ h1, h2, h3, h4, h5, h6, p {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    margin-left:40px;
     resize: vertical;
   }
 
@@ -592,9 +589,7 @@ h1, h2, h3, h4, h5, h6, p {
     border-radius: 4px;
     box-sizing: border-box;
   }
-  h1, h2, h3, h4, h5, h6, p {
-    margin-left: 40px;
-  }
+
   h1 {
     font-size: 50px;
     font-family: "Jua", sans-serif;
@@ -628,59 +623,40 @@ h1, h2, h3, h4, h5, h6, p {
 
   .gridcontainer,
   .gridcontainer2,
-  .gridcontainer3, .gridcontainer4,
+  .gridcontainer3,
+  .gridcontainer4,
   .gridcontainer5,
-  .gridcontainer6, .gridcontainer7  {
+  .gridcontainer6,
+  .gridcontainer7 {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 20px;
   }
 
-  .gridcontainer,
-  .gridcontainer3, .gridcontainer4,
-  .gridcontainer5,
-  .gridcontainer6, .gridcontainer7  {
-    img {
+  .gridcontainer img,
+  .gridcontainer2 img,
+  .gridcontainer3 img,
+  .gridcontainer4 img,
+  .gridcontainer5 img,
+  .gridcontainer6 img,
+  .gridcontainer7 img {
+    animation: sepiaFilter 10s forwards;
+    height: 200px;
+    width: 200px;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  @keyframes sepiaFilter {
+    from {
       height: 200px;
       width: 200px;
-      padding-top: 100px;
-      padding-left: 50px;
-      padding-right: 50px
-    }
-    .gridcontainer img {
-      animation: sepiaFilter 10s forwards;
-    }
-    .gridcontainer3 img {
-      animation: sepiaFilter 10s forwards;
-    }
-    .gridcontainer5 img {
-        animation: sepiaFilter 10s forwards;
-    }
-    .gridcontainer7 img {
-        animation: sepiaFilter 10s forwards;
     }
 
-    @keyframes sepiaFilter {
-      from {
-        filter: sepia(0%);
-        height: 315px;
-        width: 315px;
-      }
-
-      to {
-        filter: sepia(200%);
-        height: 400px;
-        width: 400px;
-      }
-    }
-
-    .gridcontainer2 img {
-      animation: sepiaFilter 10s forwards;
-      height:315px;
-      width:315px;
-      padding-top: 100px;
-      padding-left: 50px;
-      padding-right: 50px;
+    to {
+      height: 315px;
+      width: 315px;
     }
   }
 }
@@ -716,12 +692,30 @@ h1, h2, h3, h4, h5, h6, p {
     text-decoration: none;
   }
 
-  li a:hover {
+  li a:hover,
+  active {
     background-color: #000C66;
   }
 
-  .active {
-    background-color: #000C66;
+  .home,
+  .menu,
+  .careers,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  input[type=text],
+  textarea {
+    margin-left: 40px;
+  }
+
+  .home,
+  .menu,
+  .careers {
+    margin-bottom: 10px;
   }
 
   .home {
@@ -729,8 +723,6 @@ h1, h2, h3, h4, h5, h6, p {
     color: white;
     border-radius: 4px;
     padding: 5px 25px;
-    margin-bottom: 10px;
-    margin-left:40px;
   }
 
   .menu {
@@ -738,8 +730,6 @@ h1, h2, h3, h4, h5, h6, p {
     color: #FBE7C6;
     border-radius: 20px;
     padding: 15px 25px;
-    margin-bottom: 10px;
-    margin-left:40px;
   }
 
   .careers:hover {
@@ -755,12 +745,6 @@ h1, h2, h3, h4, h5, h6, p {
     color: black;
     border-radius: 20px;
     padding: 15px 25px;
-    margin-bottom: 10px;
-    margin-left:40px;
-  }
-
-  footer {
-    margin-left: 15px;
   }
 
   input[type=text],
@@ -772,7 +756,6 @@ h1, h2, h3, h4, h5, h6, p {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    margin-left:40px;
     resize: vertical;
   }
 
@@ -783,6 +766,12 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
+  }
+
+  footer,
+  input[type=submit],
+  input[type=subscribe],
+  .container3 input[type=text] {
     margin-left: 15px;
   }
 
@@ -812,16 +801,14 @@ h1, h2, h3, h4, h5, h6, p {
     border: 1px solid black;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-left: 15px;
   }
 
   label[for=fullname],
-  label[for=email], label[for=subject] {
+  label[for=email],
+  label[for=subject] {
     margin-left: 15px;
   }
-  h1, h2, h3, h4, h5, h6, p {
-    margin-left: 40px;
-  }
+
   h1 {
     font-size: 50px;
     font-family: "Jua", sans-serif;
@@ -855,58 +842,45 @@ h1, h2, h3, h4, h5, h6, p {
 
   .gridcontainer,
   .gridcontainer2,
-  .gridcontainer3, .gridcontainer4,
+  .gridcontainer3,
+  .gridcontainer4,
   .gridcontainer5,
-  .gridcontainer6, .gridcontainer7  {
+  .gridcontainer6,
+  .gridcontainer7 {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 20px;
-  }
+  } 
 
-  .gridcontainer,
-  .gridcontainer3, .gridcontainer4,
-  .gridcontainer5,
-  .gridcontainer6, .gridcontainer7  {
-    img {
-      height: 200px;
-      width: 200px;
-      padding-top: 100px;
-      padding-left: 50px;
-      padding-right: 50px;
-    }
-  }
-.gridcontainer img {
-  animation: sepiaFilter 10s forwards;
-}
-  .gridcontainer3 img {
+  .gridcontainer img, grdicontainer2 img, .gridcontainer3 img, .gridcontainer5 img, .gridcontainer7 img {
     animation: sepiaFilter 10s forwards;
   }
-  .gridcontainer5 img {
-      animation: sepiaFilter 10s forwards;
-  }
+
+  .gridcontainer img, grdicontainer2 img, 
+  .gridcontainer3 img,
+  .gridcontainer4 img,
+  .gridcontainer5 img,
+  .gridcontainer6 img,
   .gridcontainer7 img {
-      animation: sepiaFilter 10s forwards;
-  }
-@keyframes sepiaFilter {
-  from {
-    filter: sepia(0%);
-    height: 315px;
-    width: 315px;
-  }
-
-  to {
-    filter: sepia(200%);
-    height: 400px;
-    width: 400px;
-  }
-}
-  .gridcontainer2 img {
-    animation: sepiaFilter 10s forwards;
-    height:315px;
-    width:315px;
+    height: 200px;
+    width: 200px;
     padding-top: 100px;
     padding-left: 50px;
     padding-right: 50px;
+
+  }
+
+  @keyframes sepiaFilter {
+    from {
+      height: 200px;
+      width: 200px;
+    }
+
+    to {
+      filter: sepia(200%);
+      height: 315px;
+      width: 315px;
+    }
   }
 }
 
@@ -943,12 +917,30 @@ h1, h2, h3, h4, h5, h6, p {
     text-decoration: none;
   }
 
-  li a:hover {
+  li a:hover,
+  .active {
     background-color: #000C66;
   }
 
-  .active {
-    background-color: #000C66;
+  .home,
+  menu,
+  .careers {
+    margin-bottom: 10px;
+  }
+
+  .home,
+  menu,
+  .careers,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  input[type=text],
+  textarea {
+    margin-left: 40px;
   }
 
   .home {
@@ -956,7 +948,6 @@ h1, h2, h3, h4, h5, h6, p {
     color: white;
     border-radius: 4px;
     padding: 5px 25px;
-    margin-bottom: 10px;
   }
 
   .menu {
@@ -964,8 +955,6 @@ h1, h2, h3, h4, h5, h6, p {
     color: #FBE7C6;
     border-radius: 20px;
     padding: 15px 25px;
-    margin-bottom: 10px;
-    margin-left:40px;
   }
 
   .careers:hover {
@@ -981,8 +970,6 @@ h1, h2, h3, h4, h5, h6, p {
     color: black;
     border-radius: 20px;
     padding: 15px 25px;
-    margin-bottom: 10px;
-    margin-left:40px;
   }
 
   footer {
@@ -998,7 +985,6 @@ h1, h2, h3, h4, h5, h6, p {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    margin-left:40px;
     resize: vertical;
   }
 
@@ -1033,7 +1019,9 @@ h1, h2, h3, h4, h5, h6, p {
   }
 
   label[for=fullname],
-  label[for=email], label[for=subject] {
+  label[for=email],
+  label[for=subject],
+  .container3 input[type=text] {
     font-size: 1.5rem;
     margin-left: 57px;
   }
@@ -1044,12 +1032,8 @@ h1, h2, h3, h4, h5, h6, p {
     border: 1px solid black;
     border-radius: 4px;
     box-sizing: border-box;
-    font-size: 1.5rem;
-    margin-left: 57px;
   }
-  h1, h2, h3, h4, h5, h6, p {
-    margin-left: 40px;
-  }
+
   h1 {
     font-size: 100px;
     font-family: "Jua", sans-serif;
@@ -1083,60 +1067,41 @@ h1, h2, h3, h4, h5, h6, p {
 
   .gridcontainer,
   .gridcontainer2,
-  .gridcontainer3, .gridcontainer4,
+  .gridcontainer3,
+  .gridcontainer4,
   .gridcontainer5,
-  .gridcontainer6, .gridcontainer7 {
+  .gridcontainer6,
+  .gridcontainer7 {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 20px;
   }
-
-  .gridcontainer,
-  .gridcontainer3, .gridcontainer4,
-  .gridcontainer5,
-  .gridcontainer6, .gridcontainer7 {
-    img {
-      height: 200px;
-      width: 200px;
-      padding-top: 100px;
-      padding-left: 50px;
-      padding-right: 50px;
-    }
+  .gridcontainer img, .gridcontainer2
+  .gridcontainer3 img, .gridcontainer4 img, .gridcontainer5 img, .gridcontainer6 img, .gridcontainer7 img {
+    height: 200px;
+    width: 200px;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
-    .gridcontainer img {
-      animation: sepiaFilter 10s forwards;
-    }
-  .gridcontainer3 img {
+  
+  .gridcontainer img, .gridcontainer2
+  .gridcontainer3 img,
+  .gridcontainer5 img,
+  .gridcontainer7 img {
     animation: sepiaFilter 10s forwards;
   }
-  .gridcontainer5 img {
-      animation: sepiaFilter 10s forwards;
-  }
-  .gridcontainer7 img {
-      animation: sepiaFilter 10s forwards;
-  }
 
-    @keyframes sepiaFilter {
-      from {
-        filter: sepia(0%);
-        height: 315px;
-        width: 315px;
-      }
-
-      to {
-        filter: sepia(200%);
-        height: 400px;
-        width: 400px;
-      }
+  @keyframes sepiaFilter {
+    from {
+      height: 200px;
+      width: 200px;
     }
 
-    .gridcontainer2 img {
-      animation: sepiaFilter 10s forwards;
-      height:315px;
-      width:315px;
-      padding-top: 100px;
-      padding-left: 50px;
-      padding-right: 50px;
+    to {
+      height: 315px;
+      width: 315px;
     }
+  }
 }
