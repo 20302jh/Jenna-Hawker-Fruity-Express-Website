@@ -25,20 +25,20 @@
     display: block;
     text-align: left;
     color: white;
-    background-color: #FD7F20;
+    background-color: #c65102;
     padding: 14px 16px;
     text-decoration: none;
   }
 
   li a:hover {
-    background-color: #0E86D4;
+    background-color: #000C66;
   }
 
   .active {
-    background-color: #0E86D4;
+    background-color: #000C66;
   }
 
-  .footer {
+  footer {
     margin-left: 40px;
   }
 
@@ -260,21 +260,17 @@ h1, h2, h3, h4, h5, h6, p {
     display: block;
     text-align: center;
     color: white;
-    background-color: #FD7F20;
+    background-color: #c65102;
     padding: 14px 16px;
     text-decoration: none;
   }
 
   li a:hover {
-    background-color: #0E86D4;
+    background-color: #000C66;
   }
 
   .active {
-    background-color: #0E86D4;
-  }
-
-  .footer {
-    margin-left: 40px;
+    background-color: #000C66;
   }
 
   .home {
@@ -311,7 +307,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin-left:40px;
   }
 
-  .footer {
+  footer {
     margin-left:20px;
   }
 
@@ -491,17 +487,17 @@ h1, h2, h3, h4, h5, h6, p {
     display: block;
     text-align: center;
     color: white;
-    background-color: #FD7F20;
+    background-color: #c65102;
     padding: 14px 16px;
     text-decoration: none;
   }
 
   li a:hover {
-    background-color: #0E86D4;
+    background-color: #000C66;
   }
 
   .active {
-    background-color: #0E86D4;
+    background-color: #000C66;
   }
 
   .home {
@@ -538,7 +534,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin-left:40px;
   }
 
-  .footer {
+  footer {
     margin-left:20px;
   }
 
@@ -715,17 +711,17 @@ h1, h2, h3, h4, h5, h6, p {
     display: block;
     text-align: center;
     color: white;
-    background-color: #FD7F20;
+    background-color: #c65102;
     padding: 14px 16px;
     text-decoration: none;
   }
 
   li a:hover {
-    background-color: #0E86D4;
+    background-color: #000C66;
   }
 
   .active {
-    background-color: #0E86D4;
+    background-color: #000C66;
   }
 
   .home {
@@ -942,17 +938,17 @@ h1, h2, h3, h4, h5, h6, p {
     display: block;
     text-align: center;
     color: white;
-    background-color: #FD7F20;
+    background-color: #c65102;
     padding: 14px 16px;
     text-decoration: none;
   }
 
   li a:hover {
-    background-color: #0E86D4;
+    background-color: #000C66;
   }
 
   .active {
-    background-color: #0E86D4;
+    background-color: #000C66;
   }
 
   .home {
