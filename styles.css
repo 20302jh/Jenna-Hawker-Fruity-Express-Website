@@ -200,21 +200,21 @@ nav li {
   .gridcontainer6 img,
   .gridcontainer7 img {
        animation: sepiaFilter 10s forwards;
-      height: 200px;
-      width: 200px;
+      height: 48px;
+      width: 48px;
       padding-top: 100px;
       padding-left: 50px;
       padding-right: 50px;
   }
     @keyframes sepiaFilter {
       from {
-        height: 200px;
-        width: 200px;
+        height: 48px;
+        width: 48px;
       }
 
       to {
-        height: 315px;
-        width: 315px;
+        height: 100px;
+        width: 100px;
       }
     }
 }
@@ -418,8 +418,8 @@ nav li {
   .gridcontainer6 img,
   .gridcontainer7 img {
     animation: sepiaFilter 10s forwards;
-    height: 315px;
-    width: 315px;
+    height: 48px;
+    width: 48px;
     padding-top: 100px;
     padding-left: 50px;
     padding-right: 50px;
@@ -427,13 +427,13 @@ nav li {
 
   @keyframes sepiaFilter {
     from {
-      height: 200px;
-      width: 200px;
+      height: 48px;
+      width: 48px;
     }
 
     to {
-      height: 315px;
-      width: 315px;
+      height: 100px;
+      width: 100px;
     }
   }
 }
@@ -633,8 +633,8 @@ nav li {
   .gridcontainer6 img,
   .gridcontainer7 img {
     animation: sepiaFilter 10s forwards;
-    height: 200px;
-    width: 200px;
+    height: 48px;
+    width: 48px;
     padding-top: 100px;
     padding-left: 50px;
     padding-right: 50px;
@@ -642,13 +642,13 @@ nav li {
 
   @keyframes sepiaFilter {
     from {
-      height: 200px;
-      width: 200px;
+      height: 48px;
+      width: 48px;
     }
 
     to {
-      height: 315px;
-      width: 315px;
+      height: 100px;
+      width: 100px;
     }
   }
 }
@@ -851,8 +851,8 @@ nav li {
   .gridcontainer6 img,
   .gridcontainer7 img {
      animation: sepiaFilter 10s forwards;
-    height: 200px;
-    width: 200px;
+    height: 48px;
+    width: 48px;
     padding-top: 100px;
     padding-left: 50px;
     padding-right: 50px;
@@ -1076,16 +1076,16 @@ nav li {
   .gridcontainer img, .gridcontainer2
   .gridcontainer3 img, .gridcontainer4 img, .gridcontainer5 img, .gridcontainer6 img {
     animation: sepiaFilter 10s forwards;
-    height: 200px;
-    width: 200px;
+    height: 48px;
+    width: 48px;
     padding-top: 100px;
     padding-left: 50px;
     padding-right: 50px;
   }
 
    .gridcontainer7 img {
-     height: 200px;
-     width: 200px;
+     height: 48px;
+     width: 48px;
      padding-top: 100px;
      padding-left: 100px;
      padding-right: 50px;
@@ -1093,13 +1093,13 @@ nav li {
 
   @keyframes sepiaFilter {
     from {
-      height: 200px;
-      width: 200px;
+      height: 48px;
+      width: 48px;
     }
 
     to {
-      height: 315px;
-      width: 315px;
+      height: 100px;
+      width: 100px;
     }
   }
 }
