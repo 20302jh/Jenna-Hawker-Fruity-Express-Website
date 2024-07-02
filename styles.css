@@ -86,7 +86,7 @@ nav li {
   .careers {
     background-color: #FBE7C6;
     color: black;
-    border:solid, black;
+    border-style: solid;
     border-radius: 20px;
     padding: 15px 25px;
   }
@@ -152,7 +152,7 @@ nav li {
   h1 {
     font-size: 50px;
     font-family: "Jua", sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-style: normal;
   }
 
@@ -192,28 +192,20 @@ nav li {
     padding: 40px;
   }
 
-  .gridcontainer,
-  .gridcontainer2,
-  .gridcontainer3,
-  .gridcontainer4,
-  .gridcontainer5,
-  .gridcontainer6,
-  .gridcontainer7 {
-    img {
+  .gridcontainer img,
+  .gridcontainer2 img,
+  .gridcontainer3 img,
+  .gridcontainer4 img,
+  .gridcontainer5 img,
+  .gridcontainer6 img,
+  .gridcontainer7 img {
+       animation: sepiaFilter 10s forwards;
       height: 200px;
       width: 200px;
       padding-top: 100px;
       padding-left: 50px;
       padding-right: 50px;
-    }
-
-    .gridcontainer img,
-    .gridcontainer3 img,
-    .gridcontainer5 img,
-    .gridcontainer7 img {
-      animation: sepiaFilter 10s forwards;
-    }
-
+  }
     @keyframes sepiaFilter {
       from {
         height: 200px;
@@ -225,7 +217,6 @@ nav li {
         width: 315px;
       }
     }
-  }
 }
 
 @media screen and (min-width: 600px) {
@@ -379,7 +370,7 @@ nav li {
   h1 {
     font-size: 50px;
     font-family: "Jua", sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-style: normal;
   }
 
@@ -594,7 +585,7 @@ nav li {
   h1 {
     font-size: 50px;
     font-family: "Jua", sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-style: normal;
   }
 
@@ -813,7 +804,7 @@ nav li {
   h1 {
     font-size: 50px;
     font-family: "Jua", sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-style: normal;
   }
 
@@ -853,16 +844,13 @@ nav li {
     padding: 20px;
   } 
 
-  .gridcontainer img, grdicontainer2 img, .gridcontainer3 img, .gridcontainer5 img, .gridcontainer7 img {
-    animation: sepiaFilter 10s forwards;
-  }
-
   .gridcontainer img, grdicontainer2 img, 
   .gridcontainer3 img,
   .gridcontainer4 img,
   .gridcontainer5 img,
   .gridcontainer6 img,
   .gridcontainer7 img {
+     animation: sepiaFilter 10s forwards;
     height: 200px;
     width: 200px;
     padding-top: 100px;
@@ -1046,7 +1034,7 @@ nav li {
   h1 {
     font-size: 100px;
     font-family: "Jua", sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-style: normal;
   }
 
@@ -1087,6 +1075,7 @@ nav li {
   }
   .gridcontainer img, .gridcontainer2
   .gridcontainer3 img, .gridcontainer4 img, .gridcontainer5 img, .gridcontainer6 img {
+    animation: sepiaFilter 10s forwards;
     height: 200px;
     width: 200px;
     padding-top: 100px;
@@ -1101,14 +1090,6 @@ nav li {
      padding-left: 100px;
      padding-right: 50px;
    }
-
-  
-  .gridcontainer img, .gridcontainer2
-  .gridcontainer3 img,
-  .gridcontainer5 img,
-  .gridcontainer7 img {
-    animation: sepiaFilter 10s forwards;
-  }
 
   @keyframes sepiaFilter {
     from {
