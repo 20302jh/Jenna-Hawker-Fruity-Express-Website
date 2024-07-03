@@ -200,21 +200,21 @@ nav li {
   .gridcontainer6 img,
   .gridcontainer7 img {
        animation: sepiaFilter 10s forwards;
-      height: 48px;
-      width: 48px;
+      height: 100px;
+      width: 100px;
       padding-top: 100px;
       padding-left: 50px;
       padding-right: 50px;
   }
     @keyframes sepiaFilter {
       from {
-        height: 48px;
-        width: 48px;
+        height: 100px;
+        width: 100px;
       }
 
       to {
-        height: 100px;
-        width: 100px;
+        height: 200px;
+        width: 200px;
       }
     }
 }
@@ -874,7 +874,6 @@ nav li {
     }
 
     to {
-      filter: sepia(200%);
       height: 315px;
       width: 315px;
     }
