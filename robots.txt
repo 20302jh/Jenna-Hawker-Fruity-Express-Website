@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://11d66a2a-33f6-486e-ab1a-f449cee8b27b-00-xqf3pj8yrvkj.picard.replit.dev/
