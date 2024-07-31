@@ -45,9 +45,7 @@ nav li {
   h4,
   h5,
   h6,
-  p,
-  input[type=text],
-  textarea {
+  p {
     margin-left: 40px;
   }
 
@@ -91,62 +89,11 @@ nav li {
     padding: 15px 25px;
   }
 
-  input[type=text],
-  textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-
-  input[type=submit],
-  input[type=subscribe] {
-    background-color: black;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-  }
-
-  input[type=submit],
-  input[type=subscribe],
-  label[for=fullname],
-  label[for=email],
-  label[for=subject],
-  .container3 input[type=text] {
-    margin-left: 80px;
-  }
-
-  input[type=submit]:hover,
-  input[type=subscribe]:hover {
-    background-color: grey;
-  }
-
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 40px;
-  }
-
   li a,
-  input[type=submit],
-  input[type=subscribe],
   .home,
   .menu,
   .careers {
     cursor: pointer;
-  }
-
-  .container3 input[type=text] {
-    background-color: #FBE7C6;
-    color: black;
-    border: 1px solid black;
-    border-radius: 4px;
-    box-sizing: border-box;
   }
 
   h1 {
@@ -264,9 +211,7 @@ nav li {
   h4,
   h5,
   h6,
-  p,
-  input[type=text],
-  textarea {
+  p {
     margin-left: 40px;
   }
 
@@ -309,50 +254,7 @@ nav li {
     margin-left: 20px;
   }
 
-  input[type=text],
-  textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-
-  label[for=fullname],
-  label[for=email],
-  label[for=subject],
-  input[type=submit],
-  input[type=subscribe],
-  .container3 input[type=text] {
-    margin-left: 57px;
-  }
-
-  input[type=submit],
-  input[type=subscribe] {
-    background-color: black;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-  }
-
-  input[type=submit]:hover,
-  input[type=subscribe]:hover {
-    background-color: grey;
-  }
-
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
-
   li a,
-  input[type=submit],
-  input[type=subscribe],
   .home,
   .menu,
   .careers {
@@ -528,58 +430,11 @@ nav li {
     margin-left: 20px;
   }
 
-  input[type=text],
-  textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-
-  input[type=submit],
-  input[type=subscribe] {
-    background-color: black;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-  }
-
-  input[type=submit]:hover,
-  input[type=subscribe]:hover {
-    background-color: grey;
-  }
-
-  /**label[for=fullname],
-  label[for=email], label[for=subject] {
-    margin-left: 15px;
-  }**/
-
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
-
   li a,
-  input[type=submit],
-  input[type=subscribe],
   .home,
   .menu,
   .careers {
     cursor: pointer;
-  }
-
-  .container3 input[type=text] {
-    background-color: #FBE7C6;
-    color: black;
-    border: 1px solid black;
-    border-radius: 4px;
-    box-sizing: border-box;
   }
 
   h1 {
@@ -698,9 +553,7 @@ nav li {
   h4,
   h5,
   h6,
-  p,
-  input[type=text],
-  textarea {
+  p {
     margin-left: 40px;
   }
 
@@ -739,66 +592,15 @@ nav li {
     padding: 15px 25px;
   }
 
-  input[type=text],
-  textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-
-  input[type=submit],
-  input[type=subscribe] {
-    background-color: black;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-  }
-
-  footer,
-  input[type=submit],
-  input[type=subscribe],
-  .container3 input[type=text] {
+  footer {
     margin-left: 15px;
   }
 
-  input[type=submit]:hover,
-  input[type=subscribe]:hover {
-    background-color: grey;
-  }
-
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
-
   li a,
-  input[type=submit],
-  input[type=subscribe],
   .home,
   .menu,
   .careers {
     cursor: pointer;
-  }
-
-  .container3 input[type=text] {
-    background-color: #FBE7C6;
-    color: black;
-    border: 1px solid black;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-
-  label[for=fullname],
-  label[for=email],
-  label[for=subject] {
-    margin-left: 15px;
   }
 
   h1 {
@@ -933,9 +735,7 @@ nav li {
   h4,
   h5,
   h6,
-  p,
-  input[type=text],
-  textarea {
+  p {
     margin-left: 40px;
   }
 
@@ -970,66 +770,15 @@ nav li {
 
   footer {
     margin-left: 15px;
-  }
-
-  input[type=text],
-  textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-
-  input[type=submit],
-  input[type=subscribe] {
-    background-color: black;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    margin-left: 57px;
-  }
-
-  input[type=submit]:hover,
-  input[type=subscribe]:hover {
-    background-color: grey;
-  }
-
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
-
+  } 
+  
   li a,
-  input[type=submit],
-  input[type=subscribe],
   .home,
   .menu,
   .careers {
     cursor: pointer;
   }
-
-  label[for=fullname],
-  label[for=email],
-  label[for=subject] {
-    font-size: 1.5rem;
-    margin-left: 57px;
-  }
-
-  .container3 input[type=text] {
-    background-color: #FBE7C6;
-    color: black;
-    border: 1px solid black;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-left: 57px;
-  }
-
+  
   h1 {
     font-size: 100px;
     font-family: "Jua", sans-serif;
