@@ -88,9 +88,8 @@
     border-radius: 25px;
     padding: 15px 20px;
     font-weight: bold;
-    float:left;
-    margin-top:140px;
   }
+  
 
   .careers:hover {
     background-color: orange;
@@ -107,10 +106,14 @@
     border-style: solid;
     border-radius: 25px;
     padding: 15px 20px;
-    margin-left:5px;
     font-weight: bold;
-    margin-top:140px;
+    margin-left:50px;
   }
+  
+  .menu, .careers {
+     width:80%;
+  }
+  
 /**When buttons are clicked the mouse changes from an arrow to a hand showing that these buttons are clickable**/
   li a,
   .home,
@@ -204,7 +207,12 @@
   .gridcontainer7 {
     padding:40px;
   }
-
+  .buttoncontainer {
+    margin-top:250px;
+    display: grid;
+    grid-template-columns: auto auto 20px;
+  }
+  
   .gridcontainer img,
   .gridcontainer2 img,
   .gridcontainer3 img,
@@ -421,6 +429,11 @@
     margin-top:20px;
   }
   
+  .buttoncontainer {
+    display: grid;
+    grid-template-columns: auto auto 20px;
+  }
+  
   .gridcontainer img,
   .gridcontainer2 img,
   .gridcontainer3 img,
@@ -630,6 +643,12 @@
     border-radius:8px;
     padding:10px;
   }
+  
+  .buttoncontainer {
+    display: grid;
+    grid-template-columns: auto auto 100px;
+  }
+  
   /***Alligning Images and spacing them out between text**/
   .symbolcontainer, .gridcontainer,
   .gridcontainer2,
@@ -762,9 +781,10 @@
     background-color: black;
     color: #FBE7C6;
     border-radius: 25px;
-    padding: 15px 20px;
+    padding: 15px 35px;
     font-weight: bold;
     margin-top:140px;
+    font-size:20px;
   }
 
   .careers:hover {
@@ -781,9 +801,14 @@
     color: black;
     border-style: solid;
     border-radius: 25px;
-    padding: 15px 20px;
-    margin-left:5px;
+    padding: 15px 35px;
+    float:left;
     font-weight: bold;
+    font-size:20px;
+  }
+
+  .menu, .careers {
+     width:80%;
   }
    /**When buttons are clicked the mouse changes from an arrow to a hand showing that these buttons are clickable**/
   li a,
@@ -850,7 +875,8 @@
   h2, h3, h4, h5, h6, p {
     font-family: Arial, Helvetica, sans-serif;
   }
-  /***Alligneing Images and spacing them out between text**/
+  /***Alligning Images and spacing them out between text**/
+  
   .symbolcontainer, .gridcontainer,
   .gridcontainer2,
   .gridcontainer3,
@@ -862,6 +888,11 @@
     padding: 20px;
   }
 
+  .buttoncontainer {
+    display: grid;
+    grid-template-columns: auto auto 500px;
+  }
+  
   .gridcontainer img,
   .gridcontainer2 img,
   .gridcontainer3 img,
