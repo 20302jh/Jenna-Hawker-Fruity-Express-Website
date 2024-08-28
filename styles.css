@@ -674,7 +674,7 @@
   /**Changing sizes of headers, paragraphs and lists**/
   h1 {
     font-size: 50px;
-    font-family: "Jua", sans-serif;
+    font-family: "Balsamiq Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
@@ -946,8 +946,9 @@
   /**Changing sizes of headers, paragraphs and lists**/
   h1 {
     font-size: 80px;
-    font-family: "Jua", sans-serif;
-    font-weight: lighter;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
 
   h2 {
