@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @media screen and (max-width: 600px) {
   body {
     background-color: #FBE7C6;
@@ -11,18 +11,13 @@
 /***Creating Navigation Bar**/
   ul {
     list-style: none;
-    margin-top: 0;
-    margin-right:500px;
+    margin:0;
     padding: 0;
     overflow: hidden;
   }
   nav li {
-    width:100%;
-    font-size:15px;
+    float:left;
   }
-   nav p {
-     font-size:15px;
-   } 
   
   nav li a {
     display: block;
@@ -31,17 +26,20 @@
     background-color: #c65102;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 10px;
   }
 
   nav li a:hover,
   nav li a.active {
     background-color: #000C66;
   }
-
-  nav p {
-    font-weight: bold;
-  }
-
+  
+ .fruityexpress {
+   margin-left:80px;
+  margin-right:10px;
+ margin-top:20px;
+ }
+  
   footer li {
     display:inline;
   }
@@ -49,6 +47,34 @@
   footer li a:hover, footer li a.active {
   border-bottom:5px solid black;
   }
+  /**Search Bar**/
+  .search-container button {
+    background-color: #FBE7C6;
+    border-radius: 25px;
+    border-color: black;
+    border-style:solid;
+    width:20%;
+    padding: 5px;
+    font-size: 10px;
+    
+  }
+  
+  .search-container button input[type=text] {
+    background-color: #FBE7C6;
+    border:none;
+    padding:2px;
+    font-size:12px;
+  }
+  
+  input[type=text] {
+     width:70%;
+    color:black;
+  }
+
+  .search-container button {
+    margin-left:12px;
+  }
+  
 
   /***Alligning Elements**/
   footer,
@@ -128,8 +154,8 @@
   }
 /**Changing sizes of headers, paragraphs and lists**/
   h1 {
-    font-size: 50px;
-    font-family: "Jua", sans-serif;
+    font-size: 40px;
+    font-family: "Balsamiq Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
@@ -170,15 +196,23 @@
   /**Creating Download Container**/
   .Appstorecontainer, .Appstorecontainer2 {
     background-color: black;
-    border-radius: 8px;
+    border-radius: 16px;
     color:white;
     padding: 5px;
     float:left;
     margin-left:40px;
-    padding-bottom:10px;
-    padding-right:20px;
+    padding-bottom:5px;
+    padding-top:5px;
+    padding-left:20px;
+    width:30%;
+    height:5%
   }
 
+  .Appstorecontainer i, .Appstorecontainer2 i {
+    margin-top:10px;
+  }
+  
+  /**Creating Symbol Container**/
   .symbolcontainer i {
     background-color:lightgrey;
     border-radius:8px;
@@ -187,7 +221,7 @@
   
 /***Alligning elements and spacing them out between text**/
 
-  .symbolcontainer, .navcontainer, .gridcontainer,
+  .symbolcontainer, .gridcontainer,
   .gridcontainer2,
   .gridcontainer3,
   .gridcontainer4,
@@ -260,35 +294,51 @@
     padding: 0;
     overflow: hidden;
   }
-
- li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  
+  nav li {
+    float:left;
   }
 
-  nav li, nav p {
-    float: left;
-    width: 25%;
-  }
-   nav p {
-     margin-top: 20px;
-     margin-left:55px;
-   } 
-
- nav li a {
+  nav li a {
     display: block;
-    text-align: center;
+    text-align: left;
     color: white;
     background-color: #c65102;
     padding: 14px 16px;
     text-decoration: none;
+  font-size:14px;
   }
 
   nav li a:hover,
   nav li a.active {
     background-color: #000C66;
+  }
+  
+  .fruityexpress {
+     margin-left:80px;
+    margin-right:10px;
+   margin-top:20px;
+   }
+  
+  /**Search Bar**/
+  .search-container button {
+    background-color: #FBE7C6;
+    border-radius: 25px;
+    border-color: black;
+    border-style:solid;
+    width:20%;
+    padding: 5px;
+    font-size: 17px;
+    float:right; 
+  }
+
+  .search-container button input[type=text] {
+    background-color: #FBE7C6;
+    border:none;
+  }
+  input[type=text] {
+     width:70%;
+    color:black;
   }
 
   /***Alligning Elements**/
@@ -364,7 +414,7 @@
   
   h1 {
     font-size: 50px;
-    font-family: "Jua", sans-serif;
+    font-family: "Balsamiq Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
@@ -408,6 +458,7 @@
     padding-right:20px;
   }
 
+  /**Creating Symbol Container**/
   .symbolcontainer i {
     background-color:lightgrey;
     border-radius:8px;
@@ -487,24 +538,54 @@
     overflow: hidden;
   }
 
-  nav li, nav p {
-    float: left;
-    width: 25%;
+  nav li {
+    float:left;
   }
-
- nav li a {
+  
+  nav li a {
     display: block;
-    text-align: center;
+    text-align: left;
     color: white;
     background-color: #c65102;
     padding: 14px 16px;
     text-decoration: none;
   }
-
+  
   nav li a:hover,
   nav li a.active {
     background-color: #000C66;
   }
+  .fruityexpress {
+     margin-left:80px;
+    margin-right:10px;
+   margin-top:20px;
+   } 
+
+  /**Search Bar**/
+  .search-container button {
+    background-color: #FBE7C6;
+    border-radius: 25px;
+    border-color: black;
+    border-style:solid;
+    width:20%;
+    padding: 5px;
+    font-size: 17px;
+    float:right; 
+    margin-left:50px;
+  }
+
+  .search-container button input[type=text]{
+    background-color: #FBE7C6;
+    border:none;
+  }
+
+  input[type=text] {
+     width:70%;
+    color:black;
+  }
+
+  /**Footer**/
+  
   footer li {
     display:inline;
   }
@@ -634,10 +715,11 @@
     padding: 5px;
     float:left;
     margin-left:40px;
-    padding-bottom:10px;
     padding-right:20px;
+    height:20%;
   }
-
+  
+  /**Creating Symbol Container**/
   .symbolcontainer i {
     background-color:lightgrey;
     border-radius:8px;
@@ -671,9 +753,7 @@
        animation: sepiaFilter 10s forwards;
       height: 200px;
       width: 100px;
-      padding-top: 100px;
-      padding-left: 50px;
-      padding-right: 50px;
+
   }
   .gridcontainer7 img {
     height: 200px;
@@ -714,23 +794,16 @@
     overflow: hidden;
   }
 
-  nav li, nav p {
-    float: left;
-    width: 25%;
+  nav li {
+    float:left;
   }
-   nav p {
-     margin-top: 60px;
-     margin-bottom: 15px;
-     margin-left:55px;
-   } 
+
   nav li a {
-    margin-top: 50px;
-    margin-bottom: 2px;
     display: block;
-    text-align: center;
+    text-align: left;
     color: white;
     background-color: #c65102;
-    padding: 14px 16px;
+    padding: 14px 40px;
     text-decoration: none;
   }
 
@@ -738,12 +811,42 @@
   nav li a.active {
     background-color: #000C66;
   }
+  
+  .fruityexpress {
+    margin-left:55px;
+    margin-right:60px;
+    font-weight: bold;
+  }
+  
   footer li {
     display:inline;
   }
 
   footer li a:hover, footer li a.active {
   border-bottom:5px solid black;
+  }
+  /**Search Bar**/
+  .search-container button {
+    background-color: #FBE7C6;
+    border-radius: 25px;
+    border-color: black;
+    border-style:solid;
+    width:15%;
+    padding: 5px;
+    font-size: 17px;
+    float:right;
+    margin-right:260px;
+    margin-top:10px;
+  }
+
+  .search-container button input[type=text]{
+    background-color: #FBE7C6;
+    border:none;
+  }
+
+  input[type=text] {
+     width:70%;
+    color:black;
   }
   
   /***Alligning Elements**/
@@ -828,7 +931,7 @@
     padding-bottom:10px;
     padding-right:20px;
   }
-
+  /**Creating Symbol Container**/
   .symbolcontainer i {
     background-color:lightgrey;
     border-radius:8px;
@@ -844,8 +947,7 @@
   h1 {
     font-size: 80px;
     font-family: "Jua", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-weight: lighter;
   }
 
   h2 {
@@ -870,6 +972,7 @@
 
   p {
     font-size: 1.5rem;
+    text-align:left;
   }
   /**Changing Font Of The Text Except For The Title**/
   h2, h3, h4, h5, h6, p {
@@ -902,9 +1005,6 @@
        animation: sepiaFilter 10s forwards;
       height: 200px;
       width: 100px;
-      padding-top: 100px;
-      padding-left: 50px;
-      padding-right: 50px;
   }
   
   .gridcontainer7 img  {
